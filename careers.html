@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Career oppurtunties at Launch Services LLC">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/e8bf802880.js" crossorigin="anonymous"></script>
+    <title>Launch Services | Careers</title>
+</head>
+
+<body id="careers-body">
+    <header>
+        <nav id="navbar">
+            <!-- main menu -->
+            <div class="container main-menu">
+                <a href="index.html" class="logo-link"><img src="img/launch_logo_crop.jpg"
+                        alt="Launch Services LLC logo" class="logo"></a>
+                <ul class="main-menu-list">
+                    <li class="btn"><a href="index.html">Home</a></li>
+                    <li class="btn"><a href="services.html">Services</a></li>
+                    <li class="btn"><a href="about.html">About</a></li>
+                    <li class="btn"><a href="staff.html">Staff</a></li>
+                    <li class="btn"><a href="https://thelaunchpads.blogspot.com/" target="_blank">Blog</a></li>
+                    <li class="btn"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- mobile menu -->
+            <div class="container mobile-menu">
+                <a href="index.html" class="logo-link"><img src="img/launch_logo_crop.jpg"
+                        alt="Launch Services LLC logo" class="logo"></a>
+                <div class="mobile-menu-toggle">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </div>
+                <div class="mobile-menu-list-items">
+                    <ul class="mobile-menu-list">
+                        <li class="btn"><a class="current" href="#">Home</a></li>
+                        <li class="btn"><a href="services.html">Services</a></li>
+                        <li class="btn"><a href="about.html">About</a></li>
+                        <li class="btn"><a href="staff.html">Staff</a></li>
+                        <li class="btn"><a href="https://thelaunchpads.blogspot.com/" target="_blank">Blog</a></li>
+                        <li class="btn"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="careers-showcase" class="showcase">
+            <div id="careers-showcase-content" class="showcase-content">
+                <h1 class="primary-text"><span class="accent-text">Join</span> Our Team</h1>
+            </div>
+        </section>
+        <section id="careers-form">
+            <div class="container" id="careers-form-preface">
+                <h2>Send us your resume and join our team!</h2>
+            </div>
+            <div class="careers-form">
+                <form action="">
+                    <div class="container careers-form-divs" id="careers-name-inputs">
+                        <label for="careersFirstName">First Name: </label>
+                        <input type="text" id="careersFirstName" name="careersFirstName" placeholder="John"><br>
+                        <label for="careersLastName">Last Name: </label>
+                        <input type="text" id="careersLastName" name="careersLastName" placeholder="Doe">
+                    </div>
+                    <div class="container careers-form-divs" id="careers-email-inputs">
+                        <label for="careersEmail">Email: </label>
+                        <input type="email" id="careersEmail" name="careersEmail" placeholder="john.doe@email.com">
+                    </div>
+                    <div class="container careers-form-divs" id="careers-phone-inputs">
+                        <label for="careersPhone">Phone: </label>
+                        <input type="number" id="careersPhone" name="careersPhone" placeholder="123-456-7890">
+                    </div>
+                    <div class="container careers-form-divs" id="careers-file-inputs">
+                        <label for="careersFile">Upload Resume</label><br>
+                        <input type="file" name="careersFile" id="careersFile" accept=".pdf, imgage/jpeg"/>
+                    </div>
+                    <div class="container">
+                        <button type="submit" class="btn dark-btn">Submit</button>
+                        <button type="reset" class="btn dark-btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+<footer id="footer">
+    <p>Copyright© 2024 - Launch Services, LLC</p>
+    <a href="#">Careers</a>
+</footer>
+
+</html>
