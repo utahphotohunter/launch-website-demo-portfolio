@@ -249,7 +249,7 @@ a.current {
 
 #showcase {
     position: relative;
-    background: url('../img/friends_blue_bright.jpg') no-repeat center center/cover;
+    background: url('../img/webp/friends_blue_bright.webp') no-repeat center center/cover;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -352,7 +352,7 @@ a.current {
     padding-top: 50px;
     line-height: 1.7em;
     /* background-color: var(--secondary-color); */
-    background: url("../img/downsyndrome-home_tan_dark.jpg") no-repeat top center/cover;
+    background: url("../img/webp/downsyndrome-home_tan_dark.webp") no-repeat top center/cover;
     color: var(--primary-color);
     overflow: hidden;
     display: flex;
@@ -392,7 +392,7 @@ a.current {
         align-items: center;
         flex-direction: column;
         line-height: 4rem;
-        background: url("../img/downsyndrome-home_tan_dark.jpg") no-repeat top right/cover;
+        background: url("../img/webp/downsyndrome-home_tan_dark.webp") no-repeat top right/cover;
         padding: 0;
     }
 
@@ -425,7 +425,7 @@ a.current {
 }
 
 #staff-showcase {
-    background: url("../img/friends-meet-blue.jpg") center center/cover no-repeat;
+    background: url("../img/webp/friends-meet-blue.webp") center center/cover no-repeat;
 }
 
 @media (max-width:820px) {
@@ -511,7 +511,7 @@ a.current {
     height: 400px;
     margin: auto;
     line-height: 2.3rem;
-    background: url("../img/letters-blue.jpg") center center/cover no-repeat;
+    background: url("../img/webp/letters-blue.webp") center center/cover no-repeat;
 }
 
 .staff-contact-us-content {
@@ -557,7 +557,7 @@ a.current {
 }
 
 #services-showcase {
-    background: url("../img/services-background-blue.jpg") bottom center/cover no-repeat;
+    background: url("../img/webp/services-background-blue.webp") bottom center/cover no-repeat;
 }
 
 @media (max-width: 820px) {
@@ -626,7 +626,7 @@ a.current {
 #services-contact-us {
     display: flex;
     text-align: center;
-    background: url("../img/computer-station-blue.jpg") center center/cover no-repeat;
+    background: url("../img/webp/computer-station-blue.webp") center center/cover no-repeat;
     height: 400px;
 }
 
@@ -672,12 +672,12 @@ a.current {
 /* about header */
 
 #about-showcase {
-    background: url("../img/about-header-blue-crop.jpg") top center/cover no-repeat;
+    background: url("../img/webp/about-header-blue-crop.webp") top center/cover no-repeat;
 }
 
 @media (max-width: 820px) {
     #about-showcase {
-        background: url("../img/about-header-blue-crop.jpg") top right/cover no-repeat;
+        background: url("../img/webp/about-header-blue-crop.webp") top right/cover no-repeat;
     }
 
     #about-showcase-content {
@@ -694,7 +694,7 @@ a.current {
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
-    background: url("../img/about-mission-crop-smudge.jpg") top center/cover no-repeat;
+    background: url("../img/webp/about-mission-crop-smudge.webp") top center/cover no-repeat;
     height: 600px;
 }
 
@@ -715,7 +715,7 @@ a.current {
 /* about haskell quote */
 
 #about-haskell-quote {
-    background: url("../img/about-haskell-background.jpg") center center/cover no-repeat;
+    background: url("../img/webp/about-haskell-background.webp") center center/cover no-repeat;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -745,7 +745,7 @@ a.current {
     justify-content: center;
     align-items: center;
     height: 500px;
-    background: url("../img/about-history-blue-dark.jpg");
+    background: url("../img/webp/about-history-blue-dark.webp");
     padding: 25px;
 }
 
@@ -772,7 +772,7 @@ a.current {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../img/about-meet-staff-blue-bright.jpg") center center/cover no-repeat;
+    background: url("../img/webp/about-meet-staff-blue-bright.webp") center center/cover no-repeat;
     height: 400px;
 }
 
@@ -805,7 +805,7 @@ a.current {
 /* contact header */
 
 #contact-showcase {
-    background: url("../img/contact-header-blue.jpg") center center/cover no-repeat;
+    background: url("../img/webp/contact-header-blue.webp") center center/cover no-repeat;
 }
 
 @media (max-width: 820px) {
@@ -930,7 +930,7 @@ a.current {
 /* careers header */
 
 #careers-showcase {
-    background: url("../img/contact-header-blue.jpg") center center/cover no-repeat;
+    background: url("../img/webp/contact-header-blue.webp") center center/cover no-repeat;
 }
 
 @media (max-width: 820px) {
