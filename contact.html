@@ -7,32 +7,17 @@
     <meta name="description" content="Contact us with any questions you have.">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://kit.fontawesome.com/e8bf802880.js" crossorigin="anonymous"></script>
+    <script src="./script/script.js" defer></script>
     <title>Launch Services | Contact Us</title>
 </head>
 
-<body id="contact-body">
-    <header>
-        <nav id="navbar">
-            <!-- main menu -->
-            <div class="container main-menu">
-                <a href="index.html" class="logo-link"><img src="img/webp/launch_logo_crop.webp" alt="Launch Services LLC logo" class="logo" loading="lazy"></a>
-                <ul class="main-menu-list">
-                    <li class="btn"><a href="index.html">Home</a></li>
-                    <li class="btn"><a href="services.html">Services</a></li>
-                    <li class="btn"><a href="about.html">About</a></li>
-                    <li class="btn"><a href="staff.html">Staff</a></li>
-                    <li class="btn"><a href="https://thelaunchpads.blogspot.com/" target="_blank">Blog</a></li>
-                    <li class="btn"><a class="current" href="#">Contact</a></li>
-                </ul>
-            </div>
-            <!-- mobile menu -->
-            <div class="container mobile-menu">
-                <a href="index.html" class="logo-link"><img src="img/webp/launch_logo_crop.webp" alt="Launch Services LLC logo" class="logo" loading="lazy"></a>
-                <div class="mobile-menu-toggle">
-                    <i class="fa-solid fa-bars fa-2xl"></i>
-                </div>
-                <div class="mobile-menu-list-items">
-                    <ul class="mobile-menu-list">
+    <body id="contact-body">
+        <header>
+            <nav id="navbar">
+                <!-- main menu -->
+                <div class="container main-menu">
+                    <a href="index.html" class="logo-link"><img src="img/webp/launch_logo_crop.webp" alt="Launch Services LLC logo" class="logo" loading="lazy"></a>
+                    <ul class="main-menu-list">
                         <li class="btn"><a href="index.html">Home</a></li>
                         <li class="btn"><a href="services.html">Services</a></li>
                         <li class="btn"><a href="about.html">About</a></li>
@@ -41,49 +26,63 @@
                         <li class="btn"><a class="current" href="#">Contact</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="contact-showcase" class="showcase">
-            <div id="contact-showcase-content" class="showcase-content">
-                <h1 class="primary-text"><span class="accent-text">Contact</span> Us</h1>
-            </div>
-        </section>
-        <section id="contact-form">
-            <div class="container" id="contact-form-preface">
-                <h2>Fill out the form below and reach out to us!</h2>
-            </div>
-            <div class="contact-form">
-                <form action="">
-                    <div class="container contact-form-divs" id="contact-name-inputs">
-                        <label for="contactFirstName">First Name: </label>
-                        <input type="text" id="contactFirstName" name="contactFirstName" placeholder="John"><br>
-                        <label for="contactLastName">Last Name: </label>
-                        <input type="text" id="contactLastName" name="contactLastName" placeholder="Doe">
+                <!-- mobile menu -->
+                <div class="container mobile-menu">
+                    <a href="index.html" class="logo-link"><img src="img/webp/launch_logo_crop.webp" alt="Launch Services LLC logo" class="logo" loading="lazy"></a>
+                    <div class="mobile-menu-toggle">
+                        <i class="fa-solid fa-bars fa-2xl"></i>
                     </div>
-                    <div class="container contact-form-divs" id="contact-email-inputs">
-                        <label for="contactEmail">Email: </label>
-                        <input type="email" id="contactEmail" name="contactEmail" placeholder="john.doe@email.com">
+                    <div class="mobile-menu-list-items">
+                        <ul class="mobile-menu-list">
+                            <li class="btn"><a href="index.html">Home</a></li>
+                            <li class="btn"><a href="services.html">Services</a></li>
+                            <li class="btn"><a href="about.html">About</a></li>
+                            <li class="btn"><a href="staff.html">Staff</a></li>
+                            <li class="btn"><a href="https://thelaunchpads.blogspot.com/" target="_blank">Blog</a></li>
+                            <li class="btn"><a class="current" href="#">Contact</a></li>
+                        </ul>
                     </div>
-                    <div class="container contact-form-divs" id="contact-message-inputs">
-                        <label for="contactMessage">Message</label><br>
-                        <textarea type="message" name="contactMessage" id="contactMessage"
-                            placeholder="Enter your message here"></textarea>
-                    </div>
-                    <div class="container">
-                        <button type="submit" class="btn dark-btn">Submit</button>
-                        <button type="reset" class="btn dark-btn">Reset</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </main>
-    <script src="./script/script.js"></script>
-</body>
-<footer id="footer">
-    <p>Copyright© 2024 - Launch Services, LLC</p>
-    <a href="careers.html">Careers</a>
-</footer>
-
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="contact-showcase" class="showcase">
+                <div id="contact-showcase-content" class="showcase-content">
+                    <h1 class="primary-text"><span class="accent-text">Contact</span> Us</h1>
+                </div>
+            </section>
+            <section id="contact-form">
+                <div class="container" id="contact-form-preface">
+                    <h2>Fill out the form below and reach out to us!</h2>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="container contact-form-divs" id="contact-name-inputs">
+                            <label for="contactFirstName">First Name: </label>
+                            <input type="text" id="contactFirstName" name="contactFirstName" placeholder="John"><br>
+                            <label for="contactLastName">Last Name: </label>
+                            <input type="text" id="contactLastName" name="contactLastName" placeholder="Doe">
+                        </div>
+                        <div class="container contact-form-divs" id="contact-email-inputs">
+                            <label for="contactEmail">Email: </label>
+                            <input type="email" id="contactEmail" name="contactEmail" placeholder="john.doe@email.com">
+                        </div>
+                        <div class="container contact-form-divs" id="contact-message-inputs">
+                            <label for="contactMessage">Message</label><br>
+                            <textarea type="message" name="contactMessage" id="contactMessage"
+                                placeholder="Enter your message here"></textarea>
+                        </div>
+                        <div class="container">
+                            <button type="submit" class="btn dark-btn">Submit</button>
+                            <button type="reset" class="btn dark-btn">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <p>Copyright© 2024 - Launch Services, LLC</p>
+            <a href="careers.html">Careers</a>
+        </footer>
+    </body>
 </html>
